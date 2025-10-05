@@ -1,6 +1,6 @@
-## Monte Carlo and Derivative Pricing (Python)
+## MonteCarlo and Quasi MonteCarlo methods for pricing Derivative Pricing (Python)
 
-This project translates several MATLAB Monte Carlo demos into Python, including RNGs, GBM simulations, vanilla options (crude and antithetic MC), importance sampling for a straddle, a stochastic-vol antithetic demo, Asian options with control variates, and QMC via Halton/Sobol.
+This project translates several MATLAB MonteCarlo based code into Python, including RNGs, GBM simulations, vanilla options (crude and antithetic MC), importance sampling for a straddle, a stochastic-vol antithetic demo, Asian options with control variates, and QMC via Halton/Sobol.
 
 ### Setup
 
@@ -36,5 +36,6 @@ git push -u origin main
 ```
 
 Make sure `.gitignore` excludes `.venv/` and `outputs/`.
+
 
 
